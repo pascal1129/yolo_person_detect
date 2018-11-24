@@ -68,6 +68,7 @@ cd darknet/
 wget https://pjreddie.com/media/files/yolov3.weights
 ```
 
+- 如果需要编译OpenCV，可参见 [Pascal129/yolo_person_detect: Linux下OpenCV编译和指定版本调用](https://github.com/pascal1129/yolo_person_detect/blob/master/OpenCV_make.md)
 - 修改Makefile并编译，可以加上 -j8 等参数设定多CPU编译
 
 ```Shell
